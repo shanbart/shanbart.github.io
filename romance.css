@@ -1,0 +1,93 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+    html {
+      height: 100%;
+    }
+    body {
+        background-color: #B21D0A;
+        width: 100%;
+       height: 100%;
+
+    }
+
+    header {
+        background-color:red;
+        text-align: center;
+        color:white;
+        padding:10px;
+        margin:5px;
+        font-size: 20px;
+        display: block;
+        width: 100%;
+
+    }
+    #snowflakeContainer
+{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+.snowflake
+{
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover
+{
+    cursor: default;
+}
+    header img{
+        height:50px;
+    }
+    nav {
+        float: center;
+    }
+    nav ul {
+        padding: ;
+        float: center;
+        border-bottom: ;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+        padding: 15px
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 20px;
+        vertical-align: middle;
+    }
+    a {
+        color: ;
+    }
+    section {
+        width: 73%;
+        display: inline-block;
+        float: left;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:;
+        color:;
+        clear: both;
+        display: block;
+    }
